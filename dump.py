@@ -14,7 +14,7 @@ for i in range(0,20):
 	#print(row[0])
 	if( type(row[0]) == type("str") ):
 		s=row[0]
-		u = unicode(s, "utf-8")
+		u = s
 		f.write(u)
 		f.write("\n\n\n\n")
 	#else:
